@@ -31,7 +31,7 @@ const CategoryMenu = () => {
   ]
 
   return (
-    <div className="categories-container">
+    <div className="categories-menu">
       {categories.map((category) => (
         <CategoryItem key={category.id} category={category} />
       ))}
