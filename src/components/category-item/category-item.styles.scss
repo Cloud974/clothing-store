@@ -5,12 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  margin: 0 7.5px 15px;
+  border: 1px solid white;
   overflow: hidden;
 
   &:hover {
     cursor: pointer;
+    border: 1px solid gray;
 
     & .background-image {
       transform: scale(1.1);
@@ -28,14 +28,6 @@
 
   & .large {
     height: 380px;
-  }
-
-  &:first-child {
-    margin-right: 7.5px;
-  }
-
-  &:last-child {
-    margin-left: 7.5px;
   }
 
   .background-image {
