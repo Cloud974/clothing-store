@@ -6,27 +6,27 @@ const CategoryMenu = () => {
     {
       id: 1,
       title: 'Mens',
-      imageUrl: 'https://teddyfresh.com/cdn/shop/collections/Men_-_Tops_1600x.jpg?v=1694105624',
+      imageUrl: 'https://media.istockphoto.com/id/1357707696/photo/young-attractive-stylish-man-in-coat-thoughtfully-looking-away-on-street.webp?b=1&s=612x612&w=0&k=20&c=r3p47wMoTLZwt8NRpTUu77YqlPWXB5I0HZDYHKwWTrY=',
     },
     {
       id: 2,
       title: 'Womens',
-      imageUrl: 'https://teddyfresh.com/cdn/shop/collections/Women_Shop_All_1600x.jpg?v=1694105625',
+      imageUrl: 'https://media.istockphoto.com/id/956437960/photo/adding-items-to-my-closet.webp?b=1&s=612x612&w=0&k=20&c=E5hKosiwJHQebJBkquAdfkgFB6jJrLUHdBKyXTY88vU=',
     },
     {
       id: 3,
       title: 'Accessories',
-      imageUrl: 'https://teddyfresh.com/cdn/shop/collections/image_a16e8056-d025-4e36-9065-5980fcd52539_1600x.jpg?v=1694105626',
+      imageUrl: 'https://images.freeimages.com/images/large-previews/72a/vintage-gold-earrings-1412241.jpg?fmt=webp&w=350',
     },
     {
       id: 4,
       title: 'New Arrivals',
-      imageUrl: 'https://teddyfresh.com/cdn/shop/collections/velvetjacket_1600x.jpg?v=1694105621',
+      imageUrl: 'https://media.istockphoto.com/id/1172741222/photo/young-woman-enjoys-snowy-winter.webp?b=1&s=612x612&w=0&k=20&c=ELyF2E9YX3OJh6PU8CWIj5pyFXCKRCs5C5rORGP45_M=',
     },
     {
       id: 5,
       title: "Last Chance",
-      imageUrl: 'https://teddyfresh.com/cdn/shop/collections/collection_size_sale_banner_1600x.jpg?v=1694710253',
+      imageUrl: 'https://media.istockphoto.com/id/517269673/photo/hanger-for-clothes.webp?b=1&s=612x612&w=0&k=20&c=vP28wM7WZaFhqqb389C88gKZKZPB_CwPnaN1kab35D8=',
     },
   ]
 
