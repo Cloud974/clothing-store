@@ -18,11 +18,8 @@ const SignInForm = () => {
     await createUserDocumentFromAuth(user);
   }
 
-
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { email, password } = formFields;
-
-  console.log(formFields);
 
   const resetFormFields = () => {
     setFormFields(defaultFormFields);
@@ -38,12 +35,21 @@ const SignInForm = () => {
     event.preventDefault();
 
     try {
-      {/* tbd */ }
       const response = await signInAuthUserWithEmailAndPassword(email, password);
       console.log(response);
       resetFormFields();
     } catch (error) {
-      {/* tbd */ }
+      switch (error.code) {
+        case 'auth/wrong-password':
+          alert();
+          break;
+        case 'auth/invalid-login-credentials':
+          alert('Login Failed. Please double check username and password and try again.');
+          break;
+        default:
+          alert('Login failed. Please try again.')
+      }
+      console.log(error)
     }
 
   }
@@ -75,7 +81,7 @@ const SignInForm = () => {
           }}
         />
         <Button type="submit">Sign In</Button>
-        <Button buttonType='google' onClick={signInWithGoogle} children={<span>Sign in With Google</span>} />
+        <Button type="button" buttonType='google' onClick={signInWithGoogle} children={<span>Sign in With Google</span>} />
       </form>
     </div>
   )
